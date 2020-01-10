@@ -10,3 +10,10 @@ Reverse strings "Hello"[::-1] = "olleH"
 
 Set slice interval "Hello"[::2] = "Hlo"
 
+Strings are immutable concat works as follows: 
+    - my_string = "fun" 
+    - my_string[0] = 's' NOT ALLOWED
+    -new_ending = my_string[1:]
+    -final_string = "f" + new_ending
+
+    
