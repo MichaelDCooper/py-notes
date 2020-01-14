@@ -59,3 +59,38 @@ Has built in functions, pop, append, sort, and reverse.
 -True and False 
 -Have types 
 - Are returned from comparison operators 
+-Can declare variables without types using None 
+
+# Files 
+- can set variables to open files
+- myfile = open('myfile.txt')
+- see text with .read()
+- .seek(0) resets the cursor
+- .readlines() reads file and seperates by line
+- python follows local filepaths 
+- can open and assign variables to files with following syntax: 
+
+with open ("myfile.txt") as my_new_file: 
+    contents = my_new_file.read()
+
+- writing syntax: 
+
+with open ("myfile.txt", mode = 'w') as my_new_file: 
+    contents = my_new_file.write()
+
+-Several modes for different file type operations 
+- r = read 
+- w = write 
+- a = append 
+- r+ = reading and writing 
+- w+ = writing and reading, overwrites existing file or creates a new file 
+
+# Comparison Operators 
+- All return boolean 
+- Types work 
+- floats and ints will return true is 3.0 === 3 returns true 
+- standards > and < operators including <= >=
+- uses 'and' 'or' 
+
+# Statements 
+- uses if elif and else syntax
